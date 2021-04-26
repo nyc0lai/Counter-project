@@ -1,23 +1,45 @@
 html body {
   margin: 0;
   height: 100%;
-  background-color: royalblue;
+  background-color: rgba(14, 11, 1, 0.63);
+  text-align: center;
+  padding-top: 20%;
+  
 }
 
 #container {
-  border: 2px red solid;
-  height: 250px;
-  width: 300px;
+  display: inline-flex;
+  /*border: 2px red solid;*/
+  height: 70px;
+  width: 400px;
   background-color: silver;
+  align-items: center;
+  border-radius: 5px;
+  
 }
 #minus,
 #plus {
+  background-color: cornsilk;
   width: 50px;
   height: 40px;
   font-size: 20px;
+  margin: auto;
+  border-radius: 40px;
 }
-
+#div-label {
+  width: 
+  150px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  background-color:black;
+  border-radius: 10px;
+  font-family: Audiowide;
+  
+}
 #label {
   width: 60px;
   height: 40px;
+  font-size: 40px;
+  color: greenyellow;
 }
