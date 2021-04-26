@@ -1,5 +1,4 @@
-const pluOrminus = Math.random()< 0.5 ? -1 : 1;
-let count = Math.floor(Math.random()*999*pluOrminus);
+let count = Math.floor(Math.random()*999);
 document.getElementById("label").innerHTML = count;
 document.getElementById("minus").onclick = decrimentLabel;
 document.getElementById("plus").onclick = incrimentLabel;
